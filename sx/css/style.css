@@ -1,0 +1,111 @@
+/*css初始化*/
+body,div,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,i,a,span,img,em{ margin: 0; padding: 0;}
+li{ list-style: none;}
+i,em{ font-style: normal;}
+img{ border: 0 none; vertical-align: middle;}
+body{ background: #8df1f1;}
+.clearfix{*zoom: 1;}
+.clearfix:after{ content: "."; display: block; visibility: hidden; height: 0; font-size: 0; clear: both;}
+
+
+/*地面*/
+.footer{ position: fixed; left: 0; bottom: 0;height: 132px;}
+.footer li{ float: left; width: 90px;height: 132px; background: #8dc63f;}
+.footer-arrow{ height: 5px; width: 100%; padding-top: 45px; overflow: hidden;}
+.footer-arrow i{ float: left; width: 0; height: 0; border-width: 5px; margin-top: -5px; border-color: transparent transparent #a67c53; border-style: solid;}
+.footer-skew{ width: 100%; height: 82px; background: #a67c53;}
+.footer-skew:after,.footer-skew:before{ content: ""; float: left;width: 50%; height: 50%; background: #8b6239;}
+.footer-skew:before{ transform-origin:100% 0; transform: skew(0,-30deg);}
+.footer-skew:after{ transform-origin:0 0; transform: skew(0,30deg);}
+/*云*/
+.cloud{ position: fixed;}
+.theCloud{ position: absolute; width: 180px; height: 60px; background: #fff; border-radius: 30px;}
+.theCloud i{position: absolute;  border-radius: 50%; background: #fff;}
+.theCloud i:nth-child(1){right: 32px; bottom: 26px;width: 80px; height: 80px;}
+.theCloud i:nth-child(2){ width: 50px; height: 50px; background: #fff; left: 30px; bottom: 44px;}
+/*滚动条*/
+.scroll{ width: 100%;}
+/*人物*/
+.person-R{transform: rotateY(180deg);}
+.person{z-index: 2; position: fixed;left: 50%; margin-left: -20px; width: 40px; height: 50px;bottom: 177px; background: #f7941d;}
+
+/*帽子*/
+.person-hat{ position: absolute;bottom: 95px; left:-30px; z-index: 999; width: 90px; height: 50px; background: #f7941d;border-radius: 40px 40px 0 0; transform: rotate(-10deg); text-align: center;line-height: 56px; font-size: 20px; color: #FFF; font-weight: bold;}
+.hat-top{ position: absolute;left: 36px; top: -2px; width: 6px; height: 6px; background: #f7941d; border-radius: 50%;}
+
+.hat-edge{ position: absolute;bottom: -2px; left:-40px;transform: rotate(-10deg); width: 60px; height: 10px;background: #f7941d; border-radius: 5px 0 0 5px;}
+
+/*字*/
+.person-zk{ position: absolute;left: 0; top: 50%; width: 40px; text-align: center; font-size: 12px; font-weight: bold; color: #FFF; margin-top: -7px;}
+/*头发*/
+.person-header{z-index: 99; position: absolute; bottom: 44px;left: -20px; width: 80px; height: 80px; border-radius: 50%; background: #000;}
+.header-hair{position: absolute; width: 81px; height: 81px; border-radius: 50%;overflow: hidden;}
+/*耳朵*/
+.header-ear{ position: absolute; width: 15px; height: 15px; background: #fdc689; border-radius: 50%;top: 45px; left: -3px;}
+/*脸*/
+.header-face{ position: absolute; width: 65px; height: 40px; background: #fdc689;right: 0; top: 40px;}
+/*眼睛*/
+.header-eye{ position: absolute;top: 34px;right: -7px; width: 24px; height: 24px; border-radius: 50%; background: url(../img/eye.jpg)no-repeat; border: 2px #000 solid;animation: eye 0.5s linear infinite ; }
+.eye-left{ left: 24px;}
+
+/*嘴巴*/
+.header-mouth{ position: absolute;right: 14px;bottom: 3px; width: 18px; height: 2px; background: #ed1c24; border: 4px #f26c4f solid; border-radius:4px ;}
+/*手*/
+.header-hand{position: absolute; z-index: 7; left: 50%; width: 144px; height: 46px; overflow: hidden;margin-left: -75px;animation: hand 0.6s linear infinite alternate;}
+
+.h-hand{width: 110px; height: 110px; border: 20px #f7941d solid; border-radius: 50%;}
+/*手掌*/
+.hand-left,.hand-right{ position: absolute; width: 22px; z-index: 9; height: 22px; border-radius: 50%; background: #fdc689;animation: hand 0.6s linear infinite alternate;}
+.hand-left{ left: -49px; bottom: -7px;}
+.hand-right{ left: 67px; top: 36px;}
+/*披风*/
+.person-cloak{ z-index: 1; left: -60px; position: absolute; width: 60px; height: 50px;
+overflow: hidden;}
+.cloak{ width: 130px; height: 130px; border-radius:50%; background: #ed1c24;}
+
+/*脚*/
+.person-footer{ position: relative;left: 0; bottom: -50px; height: 45px;}
+.footer-waist{ position: absolute;z-index: 2; width: 40px; height: 15px; background: #ed1c24;}
+.footer-left{position: absolute; animation: foot-left 0.6s linear infinite alternate; height: 30px;width: 15px; }
+.footer-left:after,.footer-left:before{content: "";position: absolute; background: #f7941d;}
+.footer-left:after{ width: 15px;height: 15px; left: 0;top: 15px;left: 0;top: 15px;}
+.footer-left:before{ width: 30px; height: 15px; background: #ed1c24; left: -15px; top: 30px;}
+.footer-right{float: right; animation: foot-right 0.6s linear infinite alternate; height: 30px;width: 15px;}
+.footer-right:after,.footer-right:before{content: "";position: absolute; background: #f7941d;}
+.footer-right:after{ width: 15px;height: 15px;right: 0;top: 15px;}
+.footer-right:before{ width: 30px; height: 15px; background: #ed1c24; right: -15px; top: 30px;}
+/*山*/
+.hill{ position: fixed; left: 0; bottom: 132px;}
+.theHill{ position: absolute;bottom: 0; width: 800px; height: 400px; overflow: hidden;}
+.theHill:after{ content: ""; position: absolute; left: 0; bottom: 0; width: 0; height: 0; border-width: 400px; border-color: transparent transparent #c69c6d; border-style: solid;}
+.theHill:before{ content: ""; position: absolute; left: 400px; bottom: -400px;z-index: 2;width: 0; height: 0; border-width: 400px; border-color: transparent transparent transparent #8c6239; border-style: solid;}
+/*树*/
+.tree{ position: fixed; left: 0; bottom: 132px;z-index: 1;}
+.tree-main{position:absolute; width:180px; height: 230px; background: #8dc63f;bottom: 100px; border-radius: 180px 180px 0 0;}
+
+.tree-i{ position: absolute; left: 0; bottom: 90px; width: 180px; height: 18px;}
+.tree-i i{ float: left;width: 18px; height: 18px; background: #8dc63f; border-radius:50% ;}
+.tree-footer{ position: absolute; width: 28px; height: 100px; background: #a67c52;left: 50%; margin-left: -14px; bottom: -100px;}
+/*脚的动画*/
+@keyframes foot-left{
+	0%{transform: translate(0,-8px);}
+	50%{transform: translate(0,0);}
+	100%{transform: translate(0,-8px);}
+}
+@keyframes foot-right{
+	0%{transform: translate(0,0px);}
+	50%{transform: translate(0,-8px);}
+	100%{transform: translate(0,0);}
+}
+@keyframes hand{
+	0%{transform: translate(0,-4px);}
+	50%{transform: translate(0,0);}
+	100%{transform: translate(0,-4px);}
+}
+
+@keyframes eye{
+	0%{ transform: rotate(0deg);}
+	100%{ transform: rotate(360deg);}
+}
+
+
