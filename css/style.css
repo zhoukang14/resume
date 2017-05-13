@@ -1,0 +1,62 @@
+body,div,span,ul,li,h1,h2,h3,h4,a,img,dl,dt,dd,i,em,p{ margin: 0; padding: 0;}
+li{ list-style: none;}
+a{ text-decoration: none; color: #000;}
+i,em{ font-style: normal;}
+html{ font-size: 625%; height: 100%;}
+body{height: 100%; max-width: 640px; min-width: 320px; margin: 0 auto; font-size: 24px; font-family: "微软雅黑";}
+.swiper-container{ height: 100%;}
+.one{position: relative; background: url(../img/bg-3.jpg) no-repeat; background-size:100% 100% ;}
+.one h2{position: absolute; left: 8%; bottom: 10%; width: 1rem; height: 1rem;}
+.one h2 img{ width: 100%; height: 100%; border-radius: 50%;}
+.one .one-list{ position: absolute; right: 10%; top: 8%;}
+.one-list li{ float: left; width: 0.2rem; line-height: 0.20rem; height: auto; font-size: 0.12rem;color: #fff; font-weight: bold; text-align: center;}
+.one .sj{ position: absolute; left: 6%; top: 6%;}
+.one span{ color: #fff;}
+#content{ font-size: 0.2rem; }
+.one-resume{ position: absolute; right: 14%; top: 22%; width: 0.4rem;text-align: center;}
+.one-resume span{ font-size: 0.32rem; font-weight: bold;color: #fff;
+}
+.one-bottom{ position: absolute; left: 50%; bottom: 0%; margin-left: -0.2rem;text-align: center; width: 0.4rem; color: #fff;animation: oneBottom 2s linear infinite;display: block;opacity:1;}
+@-webkit-keyframes oneBottom
+{
+	0%{opacity: 0;}
+	50%{opacity:1;}
+	100%{opacity:0;}
+}
+/***************第二个页面***************/
+.two{position: relative; height: 100%; background: url(../img/bg-4.jpg) no-repeat; background-size:100% 100% ;}
+.two .two-data{position: absolute; top: 6%; left: 10%;  color: #fff;}
+.two-data span{font-size: 0.5rem;}
+
+ 
+.two .two-data_{position: absolute; top: 18%; left: 10%; height: 0.06rem; }
+.two-data_ span{ float: left; width: 0.5rem; height: 0.06rem; background: #fff; margin-left: -0.01rem;}
+.two-data_ span:nth-child(2){ width: 0.66rem;}
+.two-data_ span:nth-child(3){ width: 0.6rem;}
+
+
+.two-resume{position: absolute;top: 22%; left: 50%; margin-left: -35%; width: 70%; height: 70%;}
+.two-resume img{ position: absolute;top: 0; left: 0; width: 100%; height: 100%;border-radius: 0.06rem;}
+.two-resume ul{ padding: 0 0 0.2rem 0.34rem;}
+.two-resume ul li{ line-height: 0.46rem; font-size: 0.16rem; color: #2f2e2e;}
+.two-resume ul li a{ color: #2f2e2e;}
+.two-resume ul li span{ display: inline-block; width: 0.8rem; text-align: left;}
+/********************第三个页面****************************/
+.three{position: relative; background: url(../img/bg-6.png)no-repeat; background-size:100% 100% ;}
+.three h3{ position: absolute; top: 5%; left: 50%; font-size: 0.42rem; color: #fff;}
+.three span{ position: absolute; left: 2%; top: 38%;color: #fff; font-size: 0.14rem;}
+.swiper-container3{position: absolute; width: 100%; height: 30%; top: 50%; left: 0; margin-top: -15%;}
+.four{ background: url(../img/bg-6.png)no-repeat;}
+.four h2{position: absolute; left:4%; top: 4%; color: #fff;}
+.four .swiper-container4{position: absolute; left: 50%; top: 40%; width: 100%; height: 70%; margin: -35% 0 0 -50%;}
+.swiper-container4 h3{ text-align: center; font-size: 0.6rem;}
+.swiper-container4 p{ width: 52%; margin: 0 auto; font-size: 0.2rem; text-align: center;}
+.swiper-container4 img{ position: absolute;width: 60%; height: 50%; bottom: 0; left: 50%; margin-left: -30%;}
+/*.five{ background:url(../img/bg-6.png)no-repeat;}*/
+.five h3{ position: absolute; left: 10%; top: 4%;}
+.five .one-bottom{ color: #000;}
+.five-code{position: absolute; left: 50%; top: 20%; width: 71%; height: 40%; margin-left:-35%;}
+.five-code img{ width: 100%; height: 100%;}
+.five-code p{ font-size: 0.16rem; margin-top: 0.2rem;}
+.six .five-code{width: 80%; height: 60%;margin-left:-40%;}
+.seven span{position: absolute;left: 50%; top: 50%; width: 44%; height: 9%; color: #000; font-weight: bold; font-size: 0.4rem; text-align: center; margin: -25% 0 0 -22%; }
