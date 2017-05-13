@@ -10,11 +10,19 @@ window.onload = function() {
 		} 
 	});
 	var swiper3 = new Swiper('.swiper-container3', {
-        zoom: true,
         pagination: '.swiper-pagination',
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev'
-   });
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflow: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : true
+        }
+    });
    var swiper4 = new Swiper('.swiper-container4', {
         pagination: '.swiper-pagination',
         effect: 'cube',

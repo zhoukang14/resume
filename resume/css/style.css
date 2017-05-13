@@ -46,6 +46,7 @@ body{height: 100%; max-width: 640px; min-width: 320px; margin: 0 auto; font-size
 .three h3{ position: absolute; top: 5%; left: 50%; font-size: 0.42rem; color: #fff;}
 .three span{ position: absolute; left: 2%; top: 38%;color: #fff; font-size: 0.14rem;}
 .swiper-container3{position: absolute; width: 100%; height: 30%; top: 50%; left: 0; margin-top: -15%;}
+.swiper-container3 .three-img img{ width: 100%; height: 100%;}
 .four{ background: url(../img/bg-6.png)no-repeat;}
 .four h2{position: absolute; left:4%; top: 4%; color: #fff;}
 .four .swiper-container4{position: absolute; left: 50%; top: 40%; width: 100%; height: 70%; margin: -35% 0 0 -50%;}
